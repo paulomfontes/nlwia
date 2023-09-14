@@ -23,6 +23,7 @@ export const download = (videoId) =>
           "Não foi possível fazer o download do vídeo. Detalhe do erro:",
           error
         )
+        reject(error)
       })
       .pipe(fs.createWriteStream("./tmp/audio.mp4"))
   })
