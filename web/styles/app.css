@@ -15,10 +15,10 @@
 }
 
 #app > p {
-  margin-top: -5px;
   align-self: flex-start;
   text-align: justify;
   width: 512px;
+  margin-top: -5px;
 }
 
 #app .placeholder {
